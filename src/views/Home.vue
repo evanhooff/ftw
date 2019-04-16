@@ -1,17 +1,19 @@
 <template>
   <div class="home">
-    <wulff-head></wulff-head>
+    <!-- <wulff-head></wulff-head> -->
+    <audio-visualiser></audio-visualiser>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import WulffHead from "@/components/WulffHead.vue";
+// import WulffHead from "@/components/WulffHead.vue";
+import AudioVisualiser from "@/components/AudioVisualiser.vue";
 
 export default {
   name: "home",
   components: {
-    WulffHead
+    // WulffHead
+    AudioVisualiser
   }
 };
 </script>
