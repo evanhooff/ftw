@@ -17,11 +17,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="scss">
-.home {
-  background-color: #1e1d1d;
-  width: 100%;
-  height: 100vh;
-}
-</style>
