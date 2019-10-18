@@ -27,6 +27,7 @@ body {
   color: #2c3e50;
   padding: 0;
   margin: 0;
+  background-color: #000;
 }
 #nav {
   padding: 30px;
