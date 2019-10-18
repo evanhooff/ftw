@@ -24,9 +24,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   padding: 0;
   margin: 0;
+  background-color: #1e1d1d;
+  width: 100%;
+  height: 100vh;
 }
 #nav {
   padding: 30px;
