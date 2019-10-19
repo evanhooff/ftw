@@ -1,0 +1,60 @@
+input.form-control {
+    background-color: #232121;
+    border-color: $light;
+}
+
+
+label {
+    display: block;
+}
+
+select,
+textarea,
+input {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.8em;
+}
+
+.form-label {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    color: #999;
+    cursor: text;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.form-control:focus~.form-label,
+.form-control.input-filled~.form-label,
+.was-validated .form-control:valid~.form-label {
+    top: -1.5em;
+    left: 6px;
+    font-size: 0.8em;
+    color: inherit;
+    cursor: pointer;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    background-image: url("../assets/validation-valid.svg");
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    background-image: url("../assets/validation-invalid.svg");
+}

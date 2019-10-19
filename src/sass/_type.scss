@@ -1,0 +1,29 @@
+body,
+a,
+a:hover {
+    color: $light;
+}
+
+.muted {
+    color: $muted;
+}
+
+.form-label {
+    color: $muted;
+}
+
+h1,
+.font,
+.form-label,
+.btn,
+.cta {
+    font-family: "Major Mono Display";
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: normal;
+}

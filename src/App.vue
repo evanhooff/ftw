@@ -1,45 +1,29 @@
 <template>
-  <div id="app">
-    <!-- <navigation></navigation> -->
-    <router-view />
+  <div class="full-height component-dark wulff-head">
+    <!-- <coming-soon></coming-soon> -->
+    <!-- <div class="full-height component-dark"> -->
+    <!-- <wulff-head></wulff-head> -->
+    <sticky-tab></sticky-tab>
+    <router-view class="always-on-front"/>
   </div>
 </template>
 
 <script>
-// import navigation from "@/components/nav";
-
-// export default {
-//   components: {
-//     navigation
-//   }
-// };
+import StickyTab from "@/components/StickyTab";
+import WulffHead from "@/components/WulffHead";
+import ComingSoon from "@/components/ComingSoon";
+export default {
+  components: { StickyTab, WulffHead, ComingSoon }
+};
 </script>
 
-<style>
-body {
-  margin: 0;
-}
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  background-color: #1e1d1d;
-  width: 100%;
+<style lang="scss">
+.full-height {
+  display: flex;
+  align-items: center;
   height: 100vh;
 }
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.always-on-front {
+  z-index: 1008;
 }
 </style>
