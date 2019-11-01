@@ -13,7 +13,7 @@ module.exports = {
     fs: 'empty'
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './deploy/dist'),
     publicPath: '/dist/',
     filename: 'build.js'
   },
@@ -78,7 +78,7 @@ module.exports = {
         from: 'mailchimp'
       },
       {
-        from: './index.html'
+        from: 'static', to: 'static'
       }
     ])
   ],
