@@ -73,9 +73,14 @@ module.exports = {
         NODE_ENV: '"' + process.env.NODE_ENV + '"'
       }
     }),
-    new CopyWebpackPlugin([{
-      from: 'mailchimp'
-    }])
+    new CopyWebpackPlugin([
+      {
+        from: 'mailchimp'
+      },
+      {
+        from: './index.html'
+      }
+    ])
   ],
   resolve: {
     alias: {
