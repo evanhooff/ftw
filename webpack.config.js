@@ -75,10 +75,13 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
-        from: 'mailchimp'
+        from: 'signup', to: '../signup'
       },
       {
-        from: 'static', to: 'static'
+        from: 'static', to: '../static'
+      },
+      {
+        from: './index.html', to: '../index.html'
       }
     ])
   ],
