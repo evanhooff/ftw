@@ -45,10 +45,13 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^4.0.0-beta.2",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.13.0",
     "sass-loader": "^7.0.1",
     "vue-loader": "^14.2.3",
     "vue-template-compiler": "^2.5.17",
     "webpack-cli": "^3.1.2"
+  },
+  "engines": {
+    "node": ">= 10"
   }
 }
