@@ -27,6 +27,10 @@ body {
   color: #2c3e50;
   padding: 0;
   margin: 0;
+  background-color: #1e1d1d;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 #nav {
   padding: 30px;
