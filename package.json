@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "commit": "npm run build && git stage . && git status && git commit -m 'added meta data' && git push"
+    "commit": "npm run build && git stage . && git status && git commit -m 'update' && git push"
   },
   "browserslist": [
     "> 1%",
@@ -19,38 +19,38 @@
   ],
   "dependencies": {
     "axios": "^0.18.1",
-    "bootstrap": "^4.1.3",
-    "es6-promise": "^4.2.5",
-    "mailparser": "^2.5.0",
+    "bootstrap": "^4.4.1",
+    "es6-promise": "^4.2.8",
+    "mailparser": "^2.7.7",
     "three": "^0.102.1",
-    "vue": "^2.5.17",
-    "vue-axios": "^2.1.4",
-    "vue-router": "^3.0.1",
-    "vue-toasted": "^1.1.25",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-router": "^3.1.3",
+    "vue-toasted": "^1.1.27",
     "vuelidate": "^0.7.4",
-    "vuex": "^3.0.1"
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@vue/cli-plugin-babel": "^3.0.5",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-plugin-pwa": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
-    "babel-loader": "^8.0.4",
+    "@babel/core": "^7.7.7",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-plugin-pwa": "^3.12.1",
+    "@vue/cli-service": "^4.1.2",
+    "babel-loader": "^8.0.6",
     "babel-polyfill": "^7.0.0-beta.3",
     "babel-preset-env": "^7.0.0-beta.3",
     "clean-webpack-plugin": "^0.1.19",
-    "copy-webpack-plugin": "^4.6.0",
-    "cross-env": "^5.2.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^5.2.1",
     "css-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^4.0.0-beta.2",
+    "html-webpack-plugin": "^4.0.0-beta.11",
     "node-sass": "^4.13.0",
-    "sass-loader": "^7.0.1",
+    "sass-loader": "^7.3.1",
     "vue-loader": "^14.2.3",
-    "vue-template-compiler": "^2.5.17",
-    "webpack-cli": "^3.1.2"
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^3.3.10"
   },
   "engines": {
     "node": ">= 10"
