@@ -3,9 +3,6 @@ import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
-const ComingSoon = () =>
-  import( /* webpackChunkName: "DrummerWanted" */ "@/views/ComingSoon.vue");
-
 const DrummerWanted = () =>
   import( /* webpackChunkName: "DrummerWanted" */ "@/views/DrummerWanted.vue");
 
@@ -14,8 +11,7 @@ const FormSend = () =>
 
 let router = new VueRouter({
   routes: [{
-      path: "/",
-      component: ComingSoon
+      path: "/"
     }
   ]
 });
