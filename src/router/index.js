@@ -11,7 +11,20 @@ const FormSend = () =>
 
 let router = new VueRouter({
   routes: [{
-      path: "/"
+      path: "/",
+      meta: {
+        title: 'Foster the Wulff',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'The wullf is sleeping now, please come back later.'
+          },
+          {
+            property: 'og:description',
+            content: 'The wullf is sleeping now, please come back later.'
+          }
+        ]
+      }
     }
   ]
 });

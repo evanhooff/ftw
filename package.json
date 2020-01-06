@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "commit": "npm run build && git stage . && git status && git commit -m 'auto commit' && git push"
+    "commit": "npm run build && git stage . && git status && git commit -m 'added meta data' && git push"
   },
   "browserslist": [
     "> 1%",
