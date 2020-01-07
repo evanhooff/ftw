@@ -6,25 +6,21 @@ Vue.use(VueRouter);
 const DrummerWanted = () =>
   import( /* webpackChunkName: "DrummerWanted" */ "@/views/DrummerWanted.vue");
 
+const ComingSoon = () =>
+  import( /* webpackChunkName: "ComingSoon" */ "@/views/ComingSoon.vue");
+
 const FormSend = () =>
   import( /* webpackChunkName: "Form Send" */ "@/views/FormSend.vue");
 
 let router = new VueRouter({
-  routes: [{
-      path: "/",
-      meta: {
-        title: 'Foster the Wulff',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'The wullf is sleeping now, please come back later.'
-          },
-          {
-            property: 'og:description',
-            content: 'The wullf is sleeping now, please come back later.'
-          }
-        ]
-      }
+  mode: 'history',
+  routes: [
+    {
+      path: "/"
+    },
+    {
+      path: "/coming-soon",
+      component: ComingSoon
     }
   ]
 });

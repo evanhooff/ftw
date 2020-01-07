@@ -1,7 +1,9 @@
 body,
 a,
-a:hover {
+a:hover,
+input {
     color: $light;
+    letter-spacing: -1px;
 }
 
 .muted {

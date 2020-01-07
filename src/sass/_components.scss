@@ -12,3 +12,8 @@ body {
 .component-dark {
     background-color: $dark;
 }
+
+.component-white {
+    background-color: $white;
+    color: $dark;
+}
