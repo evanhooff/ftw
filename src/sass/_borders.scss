@@ -1,0 +1,8 @@
+.shark-teeth {
+  background:
+    linear-gradient(-135deg, #ffffff 16px, transparent 0),
+    linear-gradient(135deg, #ffffff 16px, transparent 0);
+  background-position: left top, left top, left bottom, left bottom;
+  background-repeat: repeat-x;
+  background-size: 32px 32px, 32px 32px;
+}

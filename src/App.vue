@@ -2,9 +2,9 @@
   <div>
     <header class="header py-4 component-white">
       <sign-up-form></sign-up-form>
-      <wulff-head></wulff-head>
     </header>
-    <main class="main">
+    <main class="main shark-teeth">
+      <wulff-head></wulff-head>
       <router-view></router-view>
     </main>
     <footer class="footer">
@@ -14,7 +14,7 @@
 
 <script>
 import SignUpForm from "@/components/SignUpForm";
-import WulffHead from "@/components/WulffHead";
+import WulffHead from "@/components/WulffHeadLines";
 export default {
   components: { SignUpForm, WulffHead }
 };

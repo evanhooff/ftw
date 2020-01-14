@@ -1,6 +1,6 @@
 <template>
   <div class="wulff-head">
-    <img src="../assets/wulff-head.svg" alt="Wulffhead">
+    <img src="../assets/wulffhead-lines.svg" alt="Wulffhead">
   </div>
 </template>
 
@@ -17,5 +17,6 @@ export default {
   max-width: 100%;
   max-height: 800px;
   margin: 1rem auto;
+  padding: 4rem;
 }
 </style>
