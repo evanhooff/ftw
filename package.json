@@ -22,7 +22,7 @@
     "bootstrap": "^4.4.1",
     "es6-promise": "^4.2.8",
     "mailparser": "^2.7.7",
-    "three": "^0.102.1",
+    "three": "^0.137.0",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
     "vue-router": "^3.1.3",
